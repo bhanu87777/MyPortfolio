@@ -1,0 +1,45 @@
+.about {
+  background-color: #111;
+  color: #ddd;
+  padding: 40px 10%;
+  text-align: left;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.about h3 {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin: 20px 0 10px 0;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin: 0 0 15px 0;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.highlight {
+  font-weight: 700;
+  color: #fff;
+}

@@ -1,0 +1,36 @@
+.footer {
+  background-color: #1f1f1f;
+  color: #ddd;
+  padding: 20px 10%;
+  text-align: center;
+  border-top: 1px solid #222;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.footer-container p {
+  font-size: 0.95rem;
+  color: #aaa;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #ddd;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
