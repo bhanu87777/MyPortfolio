@@ -104,3 +104,14 @@
     height: 180px;
   }
 }
+.java-buttons {
+  display: flex;
+  flex-direction: column; /* stack buttons vertically */
+  gap: 10px; /* spacing between buttons */
+  margin-top: 10px; /* spacing from description */
+}
+
+.java-buttons .project-btn {
+  width: 100%; /* makes all buttons equal width */
+  text-align: center;
+}
