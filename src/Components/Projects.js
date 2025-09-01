@@ -114,7 +114,7 @@ function Projects() {
                       LeetCode
                     </a>
                     <a
-                      href="https://github.com/bhanu87777/Research-Work-XenSense-V.1.git"
+                      href="https://github.com/bhanu87777/Certificate.git"
                       className="project-btn green"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -122,7 +122,7 @@ function Projects() {
                       Certifications
                     </a>
                     <a
-                      href="https://github.com/bhanu87777/Certificate.git"
+                      href="https://github.com/bhanu87777/Research-Work-XenSense-V.1.git"
                       className="project-btn green"
                       target="_blank"
                       rel="noopener noreferrer"
