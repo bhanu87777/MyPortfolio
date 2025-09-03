@@ -59,7 +59,7 @@ function About() {
 
         <h3>🎨 Hobbies</h3>
         <ul className="hobbies-list">
-          <li>Reading tech blogs & exploring new technologies</li>
+          <li>Reading books and understanding the world of AI/ML</li>
           <li>Playing chess & solving DSA Problems</li>
           <li>Listening to music</li>
         </ul>
@@ -67,9 +67,9 @@ function About() {
         <h3>🚀 Career Goals</h3>
         <p>
           I aim to work as a{" "}
-          <span className="highlight">Software Engineer</span> where I can apply
-          my skills to solve real-world problems, grow as a professional, and
-          contribute to impactful projects.
+          <span className="highlight">Software Developer</span> where I can
+          apply my skills to solve real-world problems, grow as a professional,
+          and contribute to impactful projects.
         </p>
       </div>
     </section>
