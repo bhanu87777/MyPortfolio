@@ -18,10 +18,9 @@
 
 <h2>⚡ Skills</h2>
 <ul>
-  <li>💻 <strong>Programming Languages:</strong> Java, Python, JavaScript</li>
-  <li>🌐 <strong>Web Development:</strong> HTML, CSS, React, Node.js, Express</li>
-  <li>🛠️ <strong>Tools & Frameworks:</strong> Git, GitHub</li>
-  <li>☁️ <strong>Other:</strong> MySQL, MongoDB</li>
+  <li>🌐 <strong>Full-Stack Development:</strong> HTML, CSS, TypeScript, React.js, Next.js, Node.js / Express.js, MongoDB, MySQL</li>
+  <li>💻 <strong>Programming Languages:</strong> Java, JavaScript</li>
+  <li>🛠️ <strong>Version Control:</strong> Git, GitHub</li>
 </ul>
 
 <hr>
