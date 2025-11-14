@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Particles from "react-tsparticles";
 import { loadStarsPreset } from "tsparticles-preset-stars";
 
@@ -407,18 +406,6 @@ function Certificate() {
               </h1>
 
               <div className="paper-name">{certificate.paperName}</div>
-
-              <Link to="/research-details" className="see-more-btn">
-                Click to See More
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="currentColor"
-                >
-                  <path d="M5 12h14m-7-7l7 7-7 7" />
-                </svg>
-              </Link>
             </div>
 
             {/* Right Section - Only Certificate Image */}

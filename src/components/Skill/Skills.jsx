@@ -56,10 +56,9 @@ function Skills() {
 
   const fullStackSkills = [
     { name: "HTML/CSS", level: "Intermediate" },
-    { name: "TypeScript", level: "Intermediate" },
+    { name: "JavaScript", level: "Intermediate" },
     { name: "React.js", level: "Intermediate" },
-    { name: "Next.js", level: "Intermediate" },
-    { name: "Node.js/Express", level: "Intermediate" },
+    { name: "Node.js/Express.js", level: "Intermediate" },
     { name: "MongoDB", level: "Intermediate" },
     { name: "MySQL", level: "Intermediate" },
   ];
@@ -69,31 +68,22 @@ function Skills() {
       name: "Java",
       level: "Intermediate",
       description: "Hands-on with OOP and problem solving",
-      projects: [
-        "Enterprise Application Development",
-        "Algorithm Implementation",
-        "Spring Framework Projects",
-      ],
+      projects: ["Core Java and OOPs"],
     },
     {
       name: "Machine Learning/AI",
       level: "Beginner",
       description: "Implemented neural networks basics",
       projects: [
-        "Image Classification Models",
-        "Predictive Analytics",
-        "Neural Network Implementation",
+        "Social Network Analysis using Graph Neural Network",
+        "Deep Learning FrameWork - XensenseV1",
       ],
     },
     {
       name: "Git/Github",
       level: "Intermediate",
       description: "Version control and collaboration",
-      projects: [
-        "Team Project Management",
-        "CI/CD Pipeline Setup",
-        "Code Review & Collaboration",
-      ],
+      projects: ["Team Project Management", "Code Review & Collaboration"],
     },
   ];
 
@@ -109,40 +99,20 @@ function Skills() {
       description: "Scalable object storage for data and applications",
     },
     {
-      name: "AWS Lambda",
-      level: "Intermediate",
-      description: "Serverless compute service for event-driven applications",
-    },
-    {
       name: "AWS RDS",
       level: "Intermediate",
       description: "Managed relational database service",
-    },
-    {
-      name: "AWS IAM",
-      level: "Intermediate",
-      description: "Identity and access management for AWS resources",
-    },
-    {
-      name: "AWS CloudFront",
-      level: "Intermediate",
-      description: "Content delivery network for fast content distribution",
     },
   ];
 
   const projects = [
     "Inventory Management System",
-    "Learning Management System",
     "Portfolio Website",
     "Netflix Clone",
     "Finance dashboard",
-    "Crypto Clone",
   ];
 
-  const awsProjects = [
-    "Inventory Management System",
-    "Learning Management System",
-  ];
+  const awsProjects = ["Inventory Management System"];
 
   return (
     <>

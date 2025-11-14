@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Particles from "react-tsparticles";
 import { loadStarsPreset } from "tsparticles-preset-stars";
 
@@ -58,34 +57,117 @@ function Project() {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React & Node.js",
-      path: "/project1",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
-      gradient: "from-purple-500 to-pink-500",
-    },
-    {
-      id: 2,
-      title: "Task Management App",
-      description: "Collaborative task management with real-time updates",
-      path: "/project2",
-      tech: ["Next.js", "Socket.io", "PostgreSQL"],
+      title: "Inventory Management System",
+      description:
+        "Developed a full-stack application to help businesses track and manage stock levels, purchases, and sales across operations.",
+      githubUrl:
+        "https://github.com/bhanu87777/AWS-Inventory-Management-System.git",
+      tech: [
+        "React.js",
+        "JavaScript",
+        "Redux Toolkit",
+        "RTK Query",
+        "Express.js",
+        "Recharts",
+        "AWS EC2",
+        "AWS RDS",
+        "AWS Amplify",
+        "AWS API Gateway",
+        "AWS S3",
+      ],
       gradient: "from-blue-500 to-cyan-500",
     },
     {
+      id: 2,
+      title: "End-to-End Data Pipeline & Analysis",
+      description:
+        "Built an end-to-end data pipeline to transform raw data into clean, business-ready datasets, enabling actionable insights with data storage layers and batch-processing procedures.",
+      githubUrl:
+        "https://github.com/bhanu87777/End-to-End-Pipeline-Data-Analysis.git",
+      tech: [
+        "Data Modeling",
+        "ETL",
+        "SQL",
+        "Stored Procedures",
+        "Data Cleaning",
+        "Data Normalization",
+        "Data Visualization",
+      ],
+      gradient: "from-purple-500 to-indigo-500",
+    },
+    {
       id: 3,
-      title: "AI Financial Dashboard",
-      description: "Machine learning powered financial analytics",
-      path: "/project3",
-      tech: ["TypeScript", "Python", "FastAPI", "ML"],
-      gradient: "from-green-500 to-emerald-500",
+      title: "AI Finance Dashboard",
+      description:
+        "Developed a Full-stack data analytics dashboard to track financial KPIs, product performance, and transactions with revenue forecasting using regression analysis.",
+      githubUrl: "https://github.com/bhanu87777/AI-Finance-Dashboard.git",
+      tech: [
+        "React.js",
+        "JavaScript",
+        "Redux Toolkit",
+        "Recharts",
+        "Express.js",
+        "MongoDB",
+        "regression-js",
+        "Linear Regression",
+        "Polynomial Regression",
+      ],
+      gradient: "from-green-500 to-teal-500",
     },
     {
       id: 4,
-      title: "Social Media Platform",
-      description: "Modern social platform with advanced features",
-      path: "/project4",
-      tech: ["React Native", "Firebase", "Redux"],
+      title: "XENSENSE-V1: Deep Learning Framework",
+      description:
+        "Developed a Deep Learning Framework to enhance video object segmentation and semantic labelling for autonomous driving systems with pothole and road defect detection pipeline.",
+      githubUrl: "https://github.com/bhanu87777/Research-Work-XenSense-V.1.git",
+      tech: [
+        "Deep Learning",
+        "Computer Vision",
+        "Python",
+        "TensorFlow/PyTorch",
+        "Video Processing",
+        "Object Segmentation",
+        "Semantic Labelling",
+        "Temporal Awareness",
+        "Memory Modules",
+      ],
+      gradient: "from-orange-500 to-red-500",
+    },
+    {
+      id: 5,
+      title: "Social Network Analysis using GraphSAGE",
+      description:
+        "Used GraphSAGE for clustering/node classification of a social network, achieving 80.5% accuracy-outperforming baseline models (Logistic Regression: 57.5%, DeepWalk: 68.6%) by ~22% and I have also shown that increasing neighbor samples (S1, S2) generally improved accuracy; however, adding more layers (K = 3) reduced performance. Variable sampling slightly outperformed fixed sampling, highlighting the advantage of adaptive neighborhood selection.",
+      githubUrl:
+        "https://github.com/bhanu87777/Social-Network-Analysis-GraphSAGE.git",
+      tech: [
+        "Python",
+        "PyTorch",
+        "PyTorch Geometric",
+        "NetworkX",
+        "Pandas",
+        "Scikit-learn",
+        "Matplotlib",
+        "Seaborn",
+        "Jupyter Notebook",
+      ],
+      gradient: "from-orange-500 to-red-500",
+    },
+    {
+      id: 6,
+      title: "Netflix Clone",
+      description:
+        "Developed a full-stack Netflix-like web application with user authentication, dynamic movie listings, and a responsive UI. Integrated The Movie Database (TMDb) API for real-time data fetching and implemented smooth navigation and state management for an interactive user experience.",
+      githubUrl: "https://github.com/bhanu87777/Netflix-Clone.git",
+      tech: [
+        "React",
+        "Redux",
+        "Firebase",
+        "Tailwind CSS",
+        "Axios",
+        "TMDb API",
+        "Vite",
+      ],
       gradient: "from-orange-500 to-red-500",
     },
   ];
@@ -283,6 +365,8 @@ function Project() {
           fill: #0b004e;
         }
 
+        /* Project Detail Page Styles removed (not needed since cards link to GitHub) */
+
         /* Project-specific gradients */
         .project-card:nth-child(1):hover {
           border-color: rgba(168, 85, 247, 0.4);
@@ -326,6 +410,14 @@ function Project() {
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 30px;
           }
+
+          .project-detail-title {
+            font-size: 3.5rem;
+          }
+
+          .project-detail-description {
+            font-size: 1.3rem;
+          }
         }
 
         @media (max-width: 768px) {
@@ -352,6 +444,19 @@ function Project() {
           .project-name {
             font-size: 1.8rem;
           }
+
+          .project-detail-title {
+            font-size: 2.8rem;
+          }
+
+          .project-detail-description {
+            font-size: 1.2rem;
+          }
+
+          .back-button {
+            top: 20px;
+            left: 20px;
+          }
         }
 
         @media (max-width: 480px) {
@@ -374,6 +479,14 @@ function Project() {
 
           .project-description {
             font-size: 1rem;
+          }
+
+          .project-detail-title {
+            font-size: 2.2rem;
+          }
+
+          .project-detail-description {
+            font-size: 1.1rem;
           }
         }
 
@@ -414,7 +527,18 @@ function Project() {
 
           <div className="projects-grid">
             {projects.map((project) => (
-              <Link key={project.id} to={project.path} className="project-card">
+              <a
+                key={project.id}
+                href={project.githubUrl || "#"}
+                target={project.githubUrl ? "_blank" : undefined}
+                rel={project.githubUrl ? "noopener noreferrer" : undefined}
+                className="project-card"
+                title={
+                  project.githubUrl
+                    ? `Open ${project.title} on GitHub`
+                    : project.title
+                }
+              >
                 <div className="project-number">Project {project.id}</div>
                 <h2 className="project-name">{project.title}</h2>
                 <p className="project-description">{project.description}</p>
@@ -432,7 +556,7 @@ function Project() {
                     <path d="M5 12h14m-7-7l7 7-7 7" />
                   </svg>
                 </div>
-              </Link>
+              </a>
             ))}
           </div>
         </div>

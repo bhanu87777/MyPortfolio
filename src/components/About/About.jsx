@@ -754,17 +754,17 @@ function About() {
 
               <div className="achievements-grid">
                 <div className="achievement-card">
-                  <div className="achievement-number">500+</div>
+                  <div className="achievement-number">350+</div>
                   <div className="achievement-text">
                     DSA problems solved on LeetCode with optimized solutions and
                     efficient algorithms
                   </div>
                 </div>
                 <div className="achievement-card">
-                  <div className="achievement-number">4+</div>
+                  <div className="achievement-number">6</div>
                   <div className="achievement-text">
-                    Full-stack projects deployed with modern architectures,
-                    cloud integration, and responsive designs
+                    Projects built and deployed with modern architectures, cloud
+                    integration, and responsive designs
                   </div>
                 </div>
               </div>
@@ -819,9 +819,6 @@ function About() {
                   rel="noopener noreferrer"
                 >
                   LinkedIn
-                </a>
-                <a href="mailto:bhanu.cs22@bmsce.ac.in" className="social-link">
-                  Email
                 </a>
               </div>
 
