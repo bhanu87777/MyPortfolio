@@ -791,7 +791,7 @@ function About() {
 
               <div className="cta-section">
                 <a
-                  href="https://leetcode.com/studyplan/top-interview-150/"
+                  href="https://leetcode.com/u/BHANU777/"
                   className="cta-btn primary"
                   target="_blank"
                   rel="noopener noreferrer"
