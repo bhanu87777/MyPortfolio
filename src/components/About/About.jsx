@@ -754,7 +754,7 @@ function About() {
 
               <div className="achievements-grid">
                 <div className="achievement-card">
-                  <div className="achievement-number">350+</div>
+                  <div className="achievement-number">200+</div>
                   <div className="achievement-text">
                     DSA problems solved on LeetCode with optimized solutions and
                     efficient algorithms
