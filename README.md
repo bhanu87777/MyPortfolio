@@ -5,7 +5,3 @@ This is my personal portfolio website — take a look to explore my skills, prof
 ### 🔗 Live Website
 
 **Check it out here:** [https://my-portfolio-virid-psi-51.vercel.app/](https://my-portfolio-virid-psi-51.vercel.app/)
-
----
-
-Built with **React**, **Vite**, and **Three.js**.
