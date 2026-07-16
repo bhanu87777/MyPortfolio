@@ -380,9 +380,7 @@ function Hero() {
             </a>
 
             <a
-              href={encodeURI(
-                "/Bhanu Prakash M Portfolio · GitHub · LinkedIn.pdf"
-              )}
+              href="/Resume.pdf"
               className="hero-btn secondary"
               target="_blank"
               rel="noopener noreferrer"
