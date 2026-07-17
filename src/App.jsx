@@ -6,6 +6,7 @@ import Skills from "./components/Skill/Skills";
 import Experience from "./components/Experience/Experience";
 import Project from "./components/Project/Project";
 import Certificate from "./components/Certificate/Certificate";
+import Internship from "./components/Internship/Internship";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             element={
               <>
                 <Hero />
+                <Internship />
                 <About />
                 <Skills />
                 <Experience />
